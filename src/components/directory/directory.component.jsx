@@ -9,29 +9,43 @@ class Directory extends React.Component{
         this.state = {
             sections : [
                 {
-                  title: 'Oils',
-                  imageUrl: 'https://i.ibb.co/qdLFLkG/oil.jpg',
+                  title: 'Hats',
+                  imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
                   id: 1,
-                  linkUrl: 'oils'
+                  linkUrl: 'hats'
                 },
                 {
-                  title: 'Spices',
-                  imageUrl: 'https://i.ibb.co/y5n0TJQ/spices.jpg',
+                  title: 'Shoes',
+                  imageUrl:  'https://i.ibb.co/0jqHpnp/sneakers.png',
                   id: 2,
-                  linkUrl: 'spices'
+                  linkUrl: 'shoes'
                 },
                 {
-                  title: 'Flowers',
-                  imageUrl: 'https://i.ibb.co/vmZhjPZ/flowers.jpg',
+                  title: 'Tops',
+                  imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
                   id: 3,
-                  linkUrl: 'flowers'
+                  linkUrl: 'tops'
                 },
                 {
-                  title: 'Vegetables',
-                  imageUrl: 'https://i.ibb.co/VNzFkp7/vegetable.jpg',
+                  title: 'Bottoms',
+                  imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
                   size: 'large',
                   id: 4,
-                  linkUrl: 'vegetables'
+                  linkUrl: 'bottoms'
+                },
+                {
+                  title: 'Accessories',
+                  imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+                  id: 5,
+                  size: 'large',
+                  linkUrl: 'accessories'
+                },
+                {
+                  title: 'Underwear',
+                  imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+                  id: 6,
+                  size: 'large',
+                  linkUrl: 'underwear'
                 }
                 
               ]

@@ -1,8 +1,8 @@
 const SHOP_DATA = [
     {
       id: 1,
-      title: 'Oils',
-      routeName: 'oils',
+      title: 'Hats',
+      routeName: 'hats',
       items: [
         {
           id: 1,
@@ -62,8 +62,8 @@ const SHOP_DATA = [
     },
     {
       id: 2,
-      title: 'Spices',
-      routeName: 'spices',
+      title: 'Shoes',
+      routeName: 'shoes',
       items: [
         {
           id: 1,
@@ -117,8 +117,8 @@ const SHOP_DATA = [
     },
     {
       id: 3,
-      title: 'Flowers',
-      routeName: 'flowers',
+      title: 'Tops',
+      routeName: 'tops',
       items: [
         {
           id: 1,
@@ -154,8 +154,8 @@ const SHOP_DATA = [
     },
     {
       id: 4,
-      title: 'Vegetables',
-      routeName: 'vegetables',
+      title: 'Bottoms',
+      routeName: 'bottoms',
       items: [
         {
           id: 1,
@@ -198,6 +198,128 @@ const SHOP_DATA = [
           name: 'Pepper',
           imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
           price: 200
+        }
+      ]
+    },
+    {
+      id: 5,
+      title: 'Accessories',
+      routeName: 'accessories',
+      items: [
+        {
+          id: 1,
+          name: 'Coconut Oil',
+          imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+          price: 2500
+        },
+        {
+          id: 2,
+          name: 'Castor Oil',
+          imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+          price: 1800
+        },
+        {
+          id: 3,
+          name: 'Black Seed Oil',
+          imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+          price: 3500
+        },
+        {
+          id: 4,
+          name: 'Avocado Oil',
+          imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+          price: 2500
+        },
+        {
+          id: 5,
+          name: 'Tea Tree Oil',
+          imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
+          price: 1800
+        },
+        {
+          id: 6,
+          name: 'Olive Oil',
+          imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
+          price: 1400
+        },
+        {
+          id: 7,
+          name: 'Almond Oil',
+          imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
+          price: 1800
+        },
+        {
+          id: 8,
+          name: 'Shea Butter',
+          imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
+          price: 1400
+        },
+        {
+          id: 9,
+          name: 'Palm Oil',
+          imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
+          price: 1600
+        }
+      ]
+    },
+    {
+      id: 6,
+      title: 'Underwear',
+      routeName: 'underwear',
+      items: [
+        {
+          id: 1,
+          name: 'Coconut Oil',
+          imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+          price: 2500
+        },
+        {
+          id: 2,
+          name: 'Castor Oil',
+          imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+          price: 1800
+        },
+        {
+          id: 3,
+          name: 'Black Seed Oil',
+          imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+          price: 3500
+        },
+        {
+          id: 4,
+          name: 'Avocado Oil',
+          imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+          price: 2500
+        },
+        {
+          id: 5,
+          name: 'Tea Tree Oil',
+          imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
+          price: 1800
+        },
+        {
+          id: 6,
+          name: 'Olive Oil',
+          imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
+          price: 1400
+        },
+        {
+          id: 7,
+          name: 'Almond Oil',
+          imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
+          price: 1800
+        },
+        {
+          id: 8,
+          name: 'Shea Butter',
+          imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
+          price: 1400
+        },
+        {
+          id: 9,
+          name: 'Palm Oil',
+          imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
+          price: 1600
         }
       ]
     }
